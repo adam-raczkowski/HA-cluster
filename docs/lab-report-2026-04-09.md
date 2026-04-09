@@ -8,6 +8,8 @@
 
 Postawienie dwóch maszyn wirtualnych i skonfigurowanie podstawowego klastra Pacemaker + Corosync z zasobem VIP (wirtualny adres IP) oraz weryfikacja mechanizmu failover.
 
+> **Uwaga:** Środowisko wirtualne (UTM) służy wyłącznie do celów testowych i prototypowania konfiguracji. Docelowe wdrożenie klastra zostanie przeprowadzone na rzeczywistych urządzeniach fizycznych.
+
 ## Środowisko wirtualne
 
 - **Hypervisor:** UTM w trybie Virtualize (natywna wirtualizacja ARM-on-ARM)
